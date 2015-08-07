@@ -11,6 +11,7 @@ exports.author = { name = "Tim Caswell" }
 local digest = require('openssl').digest.digest
 local base64 = require('openssl').base64
 local random = require('openssl').random
+local bit = require('bit')
 
 local band = bit.band
 local bor = bit.bor
