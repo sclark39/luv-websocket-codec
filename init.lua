@@ -96,7 +96,7 @@ end
 function exports.encode(item)
   if type(item) == "string" then
     item = {
-      opcode = 2,
+      opcode = 1,
       payload = item
     }
   end
